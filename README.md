@@ -6,8 +6,25 @@ a web audio hi-hat synth, inspired by [Synthesizing Hi-Hats with Web Audio by Jo
 
 
 
+# USE IT
+var rhh = require('really-hi-hat')(yrAudioContext)
+rhh.start(yrAudioContext.currentTime)
+rhh.update({peak: 0.5})
+rhh.start(yrAudioContext.currentTime + 1)
 
+# settings for the update settings
+```
+settings: {
+  attack: 0.02,
+  decay: 0.03,
+  sustain: 0.000001,
+  release: 0.3,
+  peak: 0.7,
+  mid: 0.25,
+  end: 0.00001
+}
 
+```
 
 
 
