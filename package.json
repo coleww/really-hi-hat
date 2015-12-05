@@ -15,5 +15,23 @@
   "dependencies": {
     "a-d-s-r": "^1.0.2",
     "make-distortion-curve": "^1.0.0"
-  }
+  },
+  "name": "really-hi-hat",
+  "description": "a web audio hi-hat synth, inspired by [Synthesizing Hi-Hats with Web Audio by Joe Sullivan](http://joesul.li/van/synthesizing-hi-hats/)",
+  "keywords": [
+    "web-audio",
+    "hi-hat",
+    "noise",
+    "synth"
+  ],
+  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wham-js/really-hi-hat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wham-js/really-hi-hat/issues"
+  },
+  "homepage": "https://github.com/wham-js/really-hi-hat#readme"
 }
